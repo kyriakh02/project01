@@ -1,0 +1,120 @@
+
+
+{
+    "Title" : "Rock" ,
+    "Banner" : "RockBanner.png",
+    "Slogan" : "Let's Rock!",
+    "Categories" : [
+        {
+            "Category_title" : "It's My Life",
+            "Category_image" : "BonJovi.jpg",
+            "Category_information" : " Songwriters: Jon Bon Jovi,Richie Sambora ,Max Martin, Sing: Bon Jon Jovi",
+            
+            "Category_items" : [
+                {
+                    "Category_item_title" :"YouTube",
+                    "Category_item_href" : "https://www.youtube.com/watch?v=vx2u5uUu3DE"
+                },
+
+                {
+                    "Category_item_title" :"Spotify",
+                    "Category_item_href" : "https://open.spotify.com/track/0v1XpBHnsbkCn7iJ9Ucr1l"
+                },
+
+                {
+                    "Category_item_title" :"Website",
+                    "Category_item_href" : "https://www.bonjovi.com/"
+                },
+
+                {
+                    "Category_item_title" :"Lyrics",
+                    "Category_item_href" : "https://www.letras.com/bon-jovi/4924/"
+                }
+                
+            ]
+            
+        },
+        {
+            "Category_title" : "Because The Night (1978)",
+            "Category_image" : "patti.jpg",
+            "Category_information" : "Songwriters: Bruce Springsteen, Patti Smith, Sing:Patti Smith ",
+            "Category_items" : [
+                {
+                    "Category_item_title" :"YouTube",
+                    "Category_item_href" : "https://www.youtube.com/watch?v=x_ksSEONVyc"
+                },
+
+                {
+                    "Category_item_title" :"Spotify",
+                    "Category_item_href" : "https://open.spotify.com/track/0JnmblCNB6xbDkI8mFWXwW?autoplay=true"
+                },
+
+                {
+                    "Category_item_title" :"Website",
+                    "Category_item_href" :"https://www.pattismith.net/intro.html"
+                },
+
+                {
+                    "Category_item_title" :"Lyrics",
+                    "Category_item_href" : "https://genius.com/Patti-smith-group-because-the-night-lyrics"
+                }
+                
+            ]
+        },
+        {
+            "Category_title" : "Boulevard Of Broken Dreams",
+            "Category_image" : "boulevard.jpg",
+            "Category_information" : "Songwriter : Billie Joe Armstrong,  Sing : Green Day",
+            "Category_items" : [
+                {
+                    "Category_item_title" :"YouTube",
+                    "Category_item_href" : "https://www.youtube.com/watch?v=Soa3gO7tL-c"
+                },
+
+                {
+                    "Category_item_title" :"Spotify",
+                    "Category_item_href" : "celtx.en.softonic.com"
+                },
+
+                {
+                    "Category_item_title" :"Website",
+                    "Category_item_href" : "https://greenday.com"
+                },
+
+                {
+                    "Category_item_title" : "Lyrics",
+                    "Category_item_href" : "https://genius.com/Green-day-boulevard-of-broken-dreams-lyrics"
+                }
+                
+            ]
+        },
+
+        {
+            "Category_title" : "Wind Of Change",
+            "Category_image" : "scorpions.jpg" ,
+            "Category_information" : "Songwriter : Klaus Meine, Sing : Scorpions",
+            "Category_items" : [
+                {
+                    "Category_item_title" :"YouTube",
+                    "Category_item_href" : "https://www.youtube.com/watch?v=n4RjJKxsamQ"
+                },
+
+                {
+                    "Category_item_title" :"Spotify",
+                    "Category_item_href" :"https://open.spotify.com/track/6IfrlY9w9LHRiiG9RtyZgj?autoplay=true"
+                },
+
+                {
+                    "Category_item_title" :"Website",
+                    "Category_item_href" : "https://www.the-scorpions.com/"
+                },
+
+                {
+                    "Category_item_title" :"Lyrics",
+                    "Category_item_href" :"https://genius.com/Scorpions-wind-of-change-lyrics"
+                }
+                
+            ]
+        }
+    ]
+    }

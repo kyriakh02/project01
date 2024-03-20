@@ -1,0 +1,118 @@
+{
+    "Title" : "Hip Hop" ,
+    "Banner" : "2redbackground.png",
+    "Slogan" : "I met Hip Hop once, Now we're bet friends",
+    "Categories" : [
+        {
+            "Category_title" : "Slick Rick - Children's Story",
+            "Category_image" : "Children.jpg",
+            "Category_information" : " Songwriters:Slick Rick,Ricky Walters  Sing: Slick Rick",
+            
+            "Category_items" : [
+                {
+                    "Category_item_title" :"YouTube",
+                    "Category_item_href" : "https://www.youtube.com/watch?v=HjNTu8jdukA"
+                },
+
+                {
+                    "Category_item_title" :"Spotify",
+                    "Category_item_href" : "https://open.spotify.com/track/2fgZhCFmWMsdnqw10tqqlH?autoplay=true"
+                },
+
+                {
+                    "Category_item_title" :"Website",
+                    "Category_item_href" : "https://www.slickrickisart.com"
+                },
+
+                {
+                    "Category_item_title" :"Lyrics",
+                    "Category_item_href" : "https://genius.com/Slick-rick-childrens-story-lyrics"
+                }
+                
+            ]
+            
+        },
+        {
+            "Category_title" : "Outkast - Ms. Jackson",
+            "Category_image" : "Ms. Jackson.jpg",
+            "Category_information" : "Songwriters: André Benjamin, Sing:Outkast ",
+            "Category_items" : [
+                {
+                    "Category_item_title" :"YouTube",
+                    "Category_item_href" : "https://www.youtube.com/watch?v=MYxAiK6VnXw"
+                },
+
+                {
+                    "Category_item_title" :"Spotify",
+                    "Category_item_href" : "https://open.spotify.com/track/4EKDQhGsacON8LOEE3OAkS?autoplay=true"
+                },
+
+                {
+                    "Category_item_title" :"Website",
+                    "Category_item_href" :"https://Outkast.lnk.to/followWI"
+                },
+
+                {
+                    "Category_item_title" :"Lyrics",
+                    "Category_item_href" : "https://genius.com/Outkast-ms-jackson-lyrics"
+                }
+                
+            ]
+        },
+        {
+            "Category_title" : "Lil Jon & The East Side Boyz & Ying Yang Twins - Get Low ",
+            "Category_image" : "Get Low.jpg",
+            "Category_information" : "Songwriter : Deongelo HolmesEric JacksonJonathan Smith,  Sing : Lil Jon & The East Side Boyz & Ying Yang Twins",
+            "Category_items" : [
+                {
+                    "Category_item_title" :"YouTube",
+                    "Category_item_href" : "https://www.youtube.com/watch?v=IYH7_GzP4Tg"
+                },
+
+                {
+                    "Category_item_title" :"Spotify",
+                    "Category_item_href" : "https://open.spotify.com/track/0r2Bul2NuCViraT2zX1l5j?autoplay=true"
+                },
+
+                {
+                    "Category_item_title" :"Website",
+                    "Category_item_href" : "https://www.theeastsideboyz.com/"
+                },
+
+                {
+                    "Category_item_title" : "Lyrics",
+                    "Category_item_href" : "https://genius.com/Lil-jon-and-the-east-side-boyz-get-low-lyrics"
+                }
+                
+            ]
+        },
+
+        {
+            "Category_title" : "Monster (Clean) - Kanye West (feat. Jay-Z, Rick Ross, Nicki Minaj & Bon Iver)",
+            "Category_image" : "Monster.png" ,
+            "Category_information" : "Songwriter : Kanye WestShawn CarterMike DeanWilliam Roberts IIOnika MarajPatrick Sing : Kanye West, Jay-Z",
+            "Category_items" : [
+                {
+                    "Category_item_title" :"YouTube",
+                    "Category_item_href" : "https://www.youtube.com/watch?v=n4RjJKxsamQ"
+                },
+
+                {
+                    "Category_item_title" :"Spotify",
+                    "Category_item_href" :"https://open.spotify.com/track/1ZHYJ2Wwgxes4m8Ba88PeK"
+                },
+
+                {
+                    "Category_item_title" :"Website",
+                    "Category_item_href" : ""
+                },
+
+                {
+                    "Category_item_title" :"Lyrics",
+                    "Category_item_href" :"https://www.letras.com/kanye-west/monster-feat-bon-iver-rick-ross-jay-z-e-nicki-minaj-clean-version/"
+                }
+                
+            ]
+        }
+    ]
+    }

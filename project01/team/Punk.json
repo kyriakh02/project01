@@ -1,0 +1,118 @@
+{
+    "Title" : "Punk" ,
+    "Banner" : "3greenbackground.png",
+    "Slogan" : "All You Need is Punk",
+    "Categories" : [
+        {
+            "Category_title" : "Sex Pistols - Anarchy In The UK",
+            "Category_image" : "sexpistols.JPG",
+            "Category_information" : " Songwriters:Paul Cook, Steve Jones, John Lydon, Glen Matlock  Sing: Sex Pistols",
+            
+            "Category_items" : [
+                {
+                    "Category_item_title" :"YouTube",
+                    "Category_item_href" : "https://www.youtube.com/watch?v=q31WY0Aobro"
+                },
+
+                {
+                    "Category_item_title" :"Spotify",
+                    "Category_item_href" : "https://open.spotify.com/track/5moTxUGPZXgGmosl4rIELm?autoplay=true"
+                },
+
+                {
+                    "Category_item_title" :"Website",
+                    "Category_item_href" : "https://www.sexpistolsofficial.com/"
+                },
+
+                {
+                    "Category_item_title" :"Lyrics",
+                    "Category_item_href" : "https://genius.com/Sex-pistols-anarchy-in-the-uk-lyrics"
+                }
+                
+            ]
+            
+        },
+        {
+            "Category_title" : "The Clash - White Riot",
+            "Category_image" : "clash.jpg",
+            "Category_information" : "Songwriters: Joe Strummer/Mick Jones, Sing:The Clash ",
+            "Category_items" : [
+                {
+                    "Category_item_title" :"YouTube",
+                    "Category_item_href" : "https://www.youtube.com/watch?v=IvG3is7Bm1w"
+                },
+
+                {
+                    "Category_item_title" :"Spotify",
+                    "Category_item_href" : "https://open.spotify.com/track/0brrVj6VnvrG70SjRTnEJA"
+                },
+
+                {
+                    "Category_item_title" :"Website",
+                    "Category_item_href" :"https://www.theclash.com/discography/white-riot/"
+                },
+
+                {
+                    "Category_item_title" :"Lyrics",
+                    "Category_item_href" : "https://genius.com/The-clash-white-riot-lyrics"
+                }
+                
+            ]
+        },
+        {
+            "Category_title" : "I Wanna Be Sedated ",
+            "Category_image" : "Ramones.jpg",
+            "Category_information" : "Songwriter : Dee Dee Ramone,Joey Ramone,Johnny Ramone,  Sing : Ramones",
+            "Category_items" : [
+                {
+                    "Category_item_title" :"YouTube",
+                    "Category_item_href" : "https://www.youtube.com/watch?v=V4RQsPECTdM"
+                },
+
+                {
+                    "Category_item_title" :"Spotify",
+                    "Category_item_href" : "https://open.spotify.com/track/5NoQvINZLBV1wMYPdNmReL"
+                },
+
+                {
+                    "Category_item_title" :"Website",
+                    "Category_item_href" : "https://www.ramones.com/"
+                },
+
+                {
+                    "Category_item_title" : "Lyrics",
+                    "Category_item_href" : "https://genius.com/Ramones-i-wanna-be-sedated-lyrics"
+                }
+                
+            ]
+        },
+
+        {
+            "Category_title" : "California Uber Alles",
+            "Category_image" : "violence.jpg" ,
+            "Category_information" : "Songwriter : Jello Biafra,John Greenway,Dead Kennedys  Sing : Dead Kennedys",
+            "Category_items" : [
+                {
+                    "Category_item_title" :"YouTube",
+                    "Category_item_href" : "https://www.youtube.com/watch?v=jrWflCJPM4w"
+                },
+
+                {
+                    "Category_item_title" :"Spotify",
+                    "Category_item_href" :"https://open.spotify.com/track/5szJ8SMwQVEvvdk65w6M6g"
+                },
+
+                {
+                    "Category_item_title" :"Website",
+                    "Category_item_href" : "http://www.deadkennedys.com/"
+                },
+
+                {
+                    "Category_item_title" :"Lyrics",
+                    "Category_item_href" :"https://genius.com/Dead-kennedys-california-uber-alles-lyrics"
+                }
+                
+            ]
+        }
+    ]
+    }

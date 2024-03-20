@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9f28138468.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        body {
+            font-size: 100%;
+            margin: 0;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        #header {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            text-align: center;
+        }
+
+        .button:hover {
+            color: black;
+            transition: color 1s;
+        }
+        
+        .page {
+            display: grid;
+            background-color: rgb(255, 255, 255);
+            overflow: hidden;
+        }
+        
+        .categories {
+            display: grid;
+            background-color: beige;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            padding-left: 2%;
+            padding-right: 2%;
+           
+        }
+
+        .songs{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .banner {
+            transition: 0.9s all 2s ease-in-out;
+            height: 600px; /* You must set a specified height */
+            position: relative;
+            text-align: center;
+            color: white;
+            overflow: hidden;
+        }
+        
+        .banner img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .banner:hover {
+            transform: scale(1.2);
+            color: rgb(177, 80, 80);
+        }
+
+        .title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size:1.5rem;
+            padding: 5px;
+        }
+
+        h1{
+            font-family:Verdana;
+            font-size: 5rem;
+        }
+        
+        .images img {
+            transition: 0.9s all 2s ease-in-out;
+        }
+
+       .images:hover img {
+            transform: scale(1.2);
+        }
+
+        @keyframes rotate {
+         from {transform: rotate(0deg)}
+         to {transform: rotate(360deg)}
+        }
+
+        .text i:hover {
+          animation: rotate 1s linear infinite;
+        }
+
+        .text{
+            color:black;
+            font-size:1.5rem;
+            margin-left: 10px;
+        }
+
+        h2{
+            font-size: 2rem;
+            font-family:Verdana;
+            margin-right: 14px;
+        }
+
+        a{
+            font-size: 1.5rem;
+            padding: 5px;
+            color: rgb(51, 15, 198);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        </style>
+
+    <script>
+        // FETCH function 1
+        async function fetchIt(url) {
+            try {
+                let myResponse = await fetch(url);
+                return await myResponse.json();
+            }
+            catch (error) {
+                console.log(error);
+            }
+        }
+
+        // RENDER function 2
+        async function renderIt(url){
+                let genre = await fetchIt(url); //calling the initial function
+
+                let out="";
+
+                out+="<div class='page'>";
+
+                out+= "<div class='banner'><img src='images/"+ genre.Banner +"'style='width:100%;'><div class='title'><h1>" + genre.Title +"</h1><br><i>"+ genre.Slogan +"</i></div></div><div class='categories'>";
+
+                let categories=genre.Categories;
+                
+                for (let i in categories) {
+
+                    
+                    out+= "<div class='songs'><div class='images'>" + "<img src='images/" + categories[i].Category_image + "'></div><div class='text'><h2>" + categories[i].Category_title + "</h2><br><p>" + categories[i].Category_information + "</p><br>";
+                    
+                    let category_items=genre.Categories[i].Category_items;
+
+                    for (let x in category_items){
+
+                        out+= "<i class='fa-regular fa-heart'></i><a href='" + category_items[x].Category_item_href +"'>" + category_items[x].Category_item_title + "</a><br>";
+                    }
+                    
+                    out+="</div>";
+
+                    out+="</div>";
+
+                }
+                
+                out+="</div>";
+
+                out+="</div>";
+                
+                document.getElementById('infoDiv').innerHTML=out;
+            }
+        
+
+    </script>
+</head>
+<body onload="renderIt('Punk.json');">
+    <div id="header"> 
+    <a href="#" class="button" onclick="renderIt('Hiphop.json');">Hiphop</a> 
+    <a href="#" class="button" onclick="renderIt('Punk.json');">Punk</a> 
+    <a href="#" class="button" onclick="renderIt('Rock.json');">Rock</a>
+    </div>
+
+    <div id="infoDiv"></div>
+</body>
+</html>
